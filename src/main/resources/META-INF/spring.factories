@@ -1,4 +1,6 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  org.apereo.cas.config.CasEmbeddedContainerTomcatConfiguration,\
-  com.jw.cas.web.MyConfig
+  com.jw.cas.web.authentication.CustomConfiguration,\
+  com.jw.cas.web.configurer.CasNewSupportActionConfiguration,\
+  com.jw.cas.web.MyConfig,\
+  com.jw.cas.web.configurer.SomethingConfigurer
 

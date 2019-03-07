@@ -38,6 +38,7 @@ public class LoginController {
 
         System.out.println("username：" + username + "，password：" + password );
 
+
         // 1、获取 TGT
         String tgt = CasServerUtil.getTGT(username, password);
         if (tgt != null){
